@@ -1,8 +1,10 @@
-name: Bazar Social Theme
 type: theme
-description: 'Este es el tema del bazar social'
+base theme: bootstrap
 core: 8.x
-screenshot: screenshot.png
+core_version_requirement: ^8 || ^9
+
+name: 'THEMETITLE'
+description: 'A Drupal Bootstrap 3 based sub-theme.'
 package: 'Bootstrap'
 
 regions:
@@ -18,7 +20,6 @@ regions:
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 
-libraries:
-  - bazarsocial/framework
-#  - bazarsocial/my-script
-#  - bazarsocial/angular.lisannyandromeda
+libraries-extend:
+  bootstrap/framework:
+    - THEMENAME/framework
