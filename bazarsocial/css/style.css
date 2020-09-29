@@ -1,4 +1,66 @@
 body{
-    background: #fff;
-    font-family: "Roboto";
+    margin: 0;
+    overflow-x: hidden;
+}
+a, a:active, a:hover, a:visited{
+    text-decoration: none;
+    color:  #0094d1 ;
+}
+ul ol{
+    list-style-type: none;
+}
+header{
+    background-color: #eeffe4;
+
+}
+
+.content{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+footer{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #c2c2c2;
+    color: #0094d1;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+}
+
+
+
+#block-bazarsocial-branding a {
+    font-size: 20px;
+    color: red;
+}
+
+.heading h1{
+    color: #0094d1;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#block-bazarsocial-main-menu ul{
+    position: absolute;
+    z-index: 5;
+    width: 80%;
+    display: inline-block;
+}
+#block-bazarsocial-main-menu ul li{
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+
+    color: blueviolet;
 }

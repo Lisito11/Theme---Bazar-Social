@@ -2,23 +2,17 @@ name: Bazar Social Theme
 type: theme
 description: 'Este es el tema del bazar social'
 core: 8.x
+
 screenshot: screenshot.png
-package: 'Bootstrap'
-
-regions:
-  navigation: 'Navigation'
-  navigation_collapsible: 'Navigation (Collapsible)'
-  header: 'Top Bar'
-  highlighted: 'Highlighted'
-  help: 'Help'
-  content: 'Content'
-  sidebar_first: 'Primary'
-  sidebar_second: 'Secondary'
-  footer: 'Footer'
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
-
 libraries:
-  - bazarsocial/framework
+   - bazarsocial/styling
+regions:
+  header: Header
+  menu: 'Main Menu'
+  content: Content
+  sidebra: Sidebar
+  footer: Footer
+
+
 #  - bazarsocial/my-script
 #  - bazarsocial/angular.lisannyandromeda
